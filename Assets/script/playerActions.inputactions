@@ -1,0 +1,52 @@
+{
+    "name": "playerActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "b2e674a5-2d30-4068-96be-34397ea39613",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "28466aa5-7ef2-459d-b133-c9fee064e6da",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Direction",
+                    "type": "Button",
+                    "id": "1646af64-bff5-49be-8a53-9cfdcd73413b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "82cc0a4f-e61f-48f2-a510-7143acef6a77",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "23a2ec5d-5838-42db-aacb-dd10fa0ad5fe",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Direction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
