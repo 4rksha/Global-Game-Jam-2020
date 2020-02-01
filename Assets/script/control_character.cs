@@ -6,6 +6,7 @@ using System;
 public class control_character : MonoBehaviour
 {
     // Start is called before the first frame update
+    private int speed = 10;
     void Start()
     {
         
@@ -18,8 +19,9 @@ public class control_character : MonoBehaviour
         float yrotate = transform.localEulerAngles.y;
         transform.eulerAngles = new Vector3(0, Mathf.Atan2(0, 0) * Mathf.Rad2Deg, 0);*/
 
-        transform.position += (Vector3.forward * Input.GetAxis("Horizontal") * 10 * Time.deltaTime);
+        transform.position -= (Vector3.forward * Input.GetAxis("Horizontal") * 10 * Time.deltaTime);
         transform.position += (Vector3.right * Input.GetAxis("Vertical") * 10 * Time.deltaTime);
+        //transform.position += hinput.gamepad[1].leftStick.worldPositionFlat * speed * Time.deltaTime;
 
         //transform.eulerAngles = new Vector3(xrotate, Mathf.Atan2(xrotate, yrotate) * Mathf.Rad2Deg, 0);
 
