@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
-    public string nomScene;
+    private string nextScene = "salle1";
 
     public void playGame() {
         Debug.Log("Play");
         // Ajouter le nom de la scene
-        // SceneManagement.LoadScene(nomScene);
+        SceneManager.LoadScene(nextScene);
     }
 
     public void quitGame() {

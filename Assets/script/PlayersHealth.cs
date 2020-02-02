@@ -26,7 +26,7 @@ public class PlayersHealth : MonoBehaviour
             }
         }
     }
-
+/*
     void Update() {
         if(max_health > MAX_HEALTH || max_health < 1) max_health = MAX_HEALTH;
 
@@ -43,5 +43,5 @@ public class PlayersHealth : MonoBehaviour
                 healths.transform.Find("HeartHealth" + i.ToString()).gameObject.SetActive(false);
             }
         }
-    }
+    }*/
 }
