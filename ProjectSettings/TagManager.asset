@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - player
+=======
+>>>>>>> fef597d06fd4a2583eca17700cd89f26e9c54da4
   - mur
   layers:
   - Default
@@ -15,9 +18,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - player
+  - projectile
+  - mur
   - 
   - 
   - 
