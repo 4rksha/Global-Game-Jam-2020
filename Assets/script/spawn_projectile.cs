@@ -8,7 +8,7 @@ public class spawn_projectile : MonoBehaviour
     public GameObject player;
     public GameObject Firepoint;
     public List<GameObject> vfx = new List<GameObject> ();
-    private GameObject effectToSpawn;
+    public GameObject effectToSpawn;
     private Vector3 direction;
     // Start is called before the first frame update
     void Start()
@@ -19,14 +19,14 @@ public class spawn_projectile : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    /*void Update()
     {
         if (Input.GetKeyDown("joystick button 5"))
         {
             SpawnVfx();
         }
         
-    }
+    }*/
 
     void SpawnVfx()
     {
